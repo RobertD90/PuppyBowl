@@ -5,8 +5,8 @@ Welcome to PuppyBowl!
 ## Getting Started
 
 1. Live serve `index.html`. The website should be blank!
-1. Read through the comments of each function in `script.js` to get a sense of what this website should do once completed. **Do not** start writing code!
-1. Read the example test specs in `script.test.js` for `fetchAllPlayers`.
+2. Read through the comments of each function in `script.js` to get a sense of what this website should do once completed. **Do not** start writing code!
+
 
 ## Instructions
 
