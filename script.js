@@ -1,6 +1,5 @@
 // Use the API_URL variable to make fetch requests to the API.
-// Replace the placeholder with your cohort name (ex: 2109-UNF-HY-WEB-PT)
-const cohortName = "YOUR COHORT NAME HERE";
+const cohortName = "2306-FSA-ET-WEB-FT-SF";
 const API_URL = `https://fsa-puppy-bowl.herokuapp.com/api/${cohortName}`;
 
 /**
@@ -119,19 +118,5 @@ const init = async () => {
   renderNewPlayerForm();
 };
 
-// This script will be run using Node when testing, so here we're doing a quick
-// check to see if we're in Node or the browser, and exporting the functions
-// we want to test if we're in Node.
-if (typeof window === "undefined") {
-  module.exports = {
-    fetchAllPlayers,
-    fetchSinglePlayer,
-    addNewPlayer,
-    removePlayer,
-    renderAllPlayers,
-    renderSinglePlayer,
-    renderNewPlayerForm,
-  };
-} else {
-  init();
-}
+init();
+
